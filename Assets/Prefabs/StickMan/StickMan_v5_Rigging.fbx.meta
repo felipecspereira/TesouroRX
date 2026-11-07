@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 737ce3d7e811ced43b62512b8bbb9294
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Corpo
+    second: {fileID: 2100000, guid: 4ec5a25f8b260f241b77c565d9112374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Olho
+    second: {fileID: 2100000, guid: 8956c4887679b3e4986e9855f0a31595, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tronco|Stick_Idle (1)
+      takeName: Tronco|Stick_Idle
+      internalID: -2554601669420277600
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Stick_Walk
+      takeName: Armature|Stick_Walk
+      internalID: 8667286754665706883
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tronco|Stick_Idle
+      takeName: Tronco|Stick_Idle
+      internalID: 6330276629546179636
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: StickMan_v5_Rigging(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: StickMan_v5_Rigging(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Torso
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0.004847536}
+      rotation: {x: 0.7071068, y: -0.0000000842937, z: -0.000000084293696, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Espinha
+      parentName: Torso
+      position: {x: -0, y: 0.0034519744, z: 0}
+      rotation: {x: 0, y: -1.4210855e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "Cabe\xE7a"
+      parentName: Espinha
+      position: {x: -0, y: 0.0014919686, z: 0}
+      rotation: {x: 0, y: 7.1054274e-15, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Ombro.L
+      parentName: Espinha
+      position: {x: -0, y: 0.0014919686, z: 0}
+      rotation: {x: -0.00190264, y: -0.017944243, z: 0.8079111, w: 0.58902806}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: "Bra\xE7o.L"
+      parentName: Ombro.L
+      position: {x: 3.5470293e-10, y: 0.0011468623, z: -5.122274e-11}
+      rotation: {x: 0.008720938, y: -0.014749536, z: -0.12941775, w: 0.9914421}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: "AnteBra\xE7o.L"
+      parentName: "Bra\xE7o.L"
+      position: {x: 8.4401104e-11, y: 0.001920724, z: -3.7252902e-11}
+      rotation: {x: 0.021100467, y: 0.0028049825, z: 0.0032272083, w: 0.9997682}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: "M\xE3o.L"
+      parentName: "AnteBra\xE7o.L"
+      position: {x: 7.543821e-11, y: 0.0022497934, z: 1.746244e-11}
+      rotation: {x: -0.05047242, y: -0.0009346425, z: 0.16329947, w: 0.9852842}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Ombro.R
+      parentName: Espinha
+      position: {x: -0, y: 0.0014919686, z: 0}
+      rotation: {x: 0.0026221275, y: -0.017493641, z: 0.808303, w: -0.5885009}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: "Bra\xE7o.R"
+      parentName: Ombro.R
+      position: {x: -5.636866e-10, y: 0.0011821461, z: 0}
+      rotation: {x: 0.008967278, y: 0.015186565, z: 0.13132918, w: 0.9911819}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: "AnteBra\xE7o.R"
+      parentName: "Bra\xE7o.R"
+      position: {x: -1.4159013e-10, y: 0.0019012511, z: 0}
+      rotation: {x: 0.020929797, y: -0.000017445536, z: -0.0045904433, w: 0.9997704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "M\xE3o.R"
+      parentName: "AnteBra\xE7o.R"
+      position: {x: -2.9748773e-10, y: 0.0023057754, z: -5.7700473e-11}
+      rotation: {x: -0.04978206, y: -0.00000026234582, z: -0.13056844, w: 0.9901887}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Bacia.L
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0.004847536}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Femur.L
+      parentName: Bacia.L
+      position: {x: -0, y: 0.0008100309, z: 0}
+      rotation: {x: -0.71652293, y: -0.000000016373942, z: -0.00000007945221, w: 0.6975635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tibia.L
+      parentName: Femur.L
+      position: {x: 4.8849813e-17, y: 0.0020533404, z: 6.519261e-11}
+      rotation: {x: -0.002891126, y: -0.000062811254, z: -0.021712137, w: 0.9997601}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Calcanhar.L
+      parentName: Tibia.L
+      position: {x: 7.275957e-13, y: 0.0021737712, z: -4.4708588e-11}
+      rotation: {x: 0.01155359, y: -0.00089241005, z: 0.46546957, w: 0.88498807}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Pe.L
+      parentName: Calcanhar.L
+      position: {x: 1.3387761e-11, y: 0.00064016227, z: -2.3283063e-11}
+      rotation: {x: -0.0034622594, y: -0.000000025244649, z: 0.25279585, w: 0.9675135}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Bacia.R
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0.004847536}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Femur.R
+      parentName: Bacia.R
+      position: {x: -0, y: 0.0008100309, z: 0}
+      rotation: {x: -0.71652293, y: 0.000000016373942, z: 0.00000007945221, w: 0.6975635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tibia.R
+      parentName: Femur.R
+      position: {x: -4.8849813e-17, y: 0.0020533404, z: 6.519261e-11}
+      rotation: {x: -0.002891126, y: 0.000062811254, z: 0.021712137, w: 0.9997601}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Calcanhar.R
+      parentName: Tibia.R
+      position: {x: -7.275957e-13, y: 0.0021737712, z: -4.4708588e-11}
+      rotation: {x: 0.01155359, y: 0.00089241005, z: -0.46546957, w: 0.88498807}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Pe.R
+      parentName: Calcanhar.R
+      position: {x: -1.3387761e-11, y: 0.00064016227, z: -2.3283063e-11}
+      rotation: {x: -0.0034622594, y: 0.000000025244649, z: -0.25279585, w: 0.9675135}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Tronco
+      parentName: StickMan_v5_Rigging(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

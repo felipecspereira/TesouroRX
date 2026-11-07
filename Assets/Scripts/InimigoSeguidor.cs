@@ -7,16 +7,29 @@ public class InimigoSeguidorSimples : MonoBehaviour
 
     private void Update()
     {
-        if (jogador == null) return;
+        
 
-        // Faz o inimigo olhar na direção do jogador
-        transform.LookAt(jogador);
+        float distancia = Vector3.Distance(transform.position, jogador.position);
 
-        // Move o inimigo em linha reta até o jogador
-        transform.localPosition = Vector3.MoveTowards(
-            transform.localPosition,
-            jogador.localPosition,
-            velocidade * Time.deltaTime
-        );
+        if (distancia > 1.5f) // Só anda se estiver a mais de 1.5m do jogador
+        {
+            if (jogador == null) return;
+
+            // 1. Calcula a posição do alvo mantendo a mesma altura (Y) do inimigo
+            Vector3 posicaoAlvo = new Vector3(jogador.position.x, transform.position.y, jogador.position.z);
+
+            // 2. Aponta para o alvo sem tombar para cima ou para baixo
+            transform.LookAt(posicaoAlvo);
+
+            // 3. Move no espaço global do mundo (usando position ao invés de localPosition)
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                posicaoAlvo,
+                velocidade * Time.deltaTime
+            );
+        }
+
+
+
     }
 }
